@@ -3,3 +3,6 @@ __pycache__
 *.egg-info
 test_preprocess
 test_result
+result
+rcabench*
+data
