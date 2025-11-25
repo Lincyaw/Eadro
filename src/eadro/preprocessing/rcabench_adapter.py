@@ -166,7 +166,7 @@ class RcaBenchAdapter:
         logging.info("Initializing service topology...")
 
         # Read service names from logs
-        logs_df = pd.read_parquet(sample_case / "abnormal_logs.parquet")
+        logs_df = pd.read_parquet(sample_case / "converted" / "abnormal_logs.parquet")
         services = sorted(logs_df["service_name"].unique())
 
         # Filter out empty service names
@@ -199,7 +199,7 @@ class RcaBenchAdapter:
         max_logs_per_case = 5000  # Limit logs per case
 
         for case_dir in case_dirs:
-            logs_path = case_dir / "abnormal_logs.parquet"
+            logs_path = case_dir / "converted" / "abnormal_logs.parquet"
             if not logs_path.exists():
                 continue
 
@@ -293,9 +293,9 @@ class RcaBenchAdapter:
         logging.info(f"Time range: {start_time} to {end_time}")
 
         # Load data
-        logs_df = pd.read_parquet(case_dir / "abnormal_logs.parquet")
-        metrics_df = pd.read_parquet(case_dir / "abnormal_metrics.parquet")
-        traces_df = pd.read_parquet(case_dir / "abnormal_traces.parquet")
+        logs_df = pd.read_parquet(case_dir / "converted" / "abnormal_logs.parquet")
+        metrics_df = pd.read_parquet(case_dir / "converted" / "abnormal_metrics.parquet")
+        traces_df = pd.read_parquet(case_dir / "converted" / "abnormal_traces.parquet")
 
         # Normalize timestamps to seconds from start
         logs_df["timestamp"] = (
