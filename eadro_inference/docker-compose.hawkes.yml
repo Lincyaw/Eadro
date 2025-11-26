@@ -1,0 +1,11 @@
+services:
+  hawkes-service:
+    build:
+      context: ./hawkes_service
+      network: host
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    container_name: hawkes-modeling-service
+    network_mode: host

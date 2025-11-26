@@ -1,0 +1,5 @@
+numpy
+tick
+flask
+requests
+loguru
