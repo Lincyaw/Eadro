@@ -1,0 +1,75 @@
+nohup: ignoring input
+2025-11-25 10:09:53,456 P1324598 INFO Using CPU...
+2025-11-25 10:09:53,456 P1324598 INFO Loading dataset from /home/nn/workspace/Eadro/rcabench_chunks
+2025-11-25 10:10:07,089 P1324598 INFO Loaded 26766 train / 6660 test chunks from /home/nn/workspace/Eadro/rcabench_chunks
+2025-11-25 10:10:07,103 P1324598 INFO Starting training...
+/home/nn/workspace/Eadro/.venv/lib/python3.8/site-packages/torch/amp/autocast_mode.py:198: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+2025-11-25 10:13:09,687 P1324598 INFO Epoch 1/50, training loss: 1.87633 [182.58s]
+2025-11-25 10:16:09,813 P1324598 INFO Epoch 2/50, training loss: 1.85555 [180.13s]
+2025-11-25 10:19:15,188 P1324598 INFO Epoch 3/50, training loss: 1.84350 [185.37s]
+2025-11-25 10:22:18,937 P1324598 INFO Epoch 4/50, training loss: 1.81861 [183.75s]
+2025-11-25 10:25:23,520 P1324598 INFO Epoch 5/50, training loss: 1.79318 [184.58s]
+2025-11-25 10:28:27,208 P1324598 INFO Epoch 6/50, training loss: 1.77145 [183.69s]
+2025-11-25 10:31:29,361 P1324598 INFO Epoch 7/50, training loss: 1.74770 [182.15s]
+2025-11-25 10:34:34,341 P1324598 INFO Epoch 8/50, training loss: 1.72948 [184.98s]
+2025-11-25 10:37:37,898 P1324598 INFO Epoch 9/50, training loss: 1.71230 [183.56s]
+2025-11-25 10:40:40,601 P1324598 INFO Epoch 10/50, training loss: 1.69400 [182.70s]
+2025-11-25 10:40:53,929 P1324598 INFO Test -- F1: 0.8135, Rec: 0.9961, Pre: 0.6874, HR@1: 0.1433, ndcg@1: 0.1433, HR@3: 0.2670, ndcg@3: 0.2135, HR@5: 0.3674, ndcg@5: 0.2547
+/home/nn/workspace/Eadro/.venv/lib/python3.8/site-packages/torch/amp/autocast_mode.py:198: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+2025-11-25 10:43:57,705 P1324598 INFO Epoch 11/50, training loss: 1.68197 [183.77s]
+2025-11-25 10:46:59,685 P1324598 INFO Epoch 12/50, training loss: 1.66565 [181.98s]
+2025-11-25 10:50:01,488 P1324598 INFO Epoch 13/50, training loss: 1.64793 [181.80s]
+2025-11-25 10:53:01,854 P1324598 INFO Epoch 14/50, training loss: 1.63247 [180.37s]
+2025-11-25 10:56:01,831 P1324598 INFO Epoch 15/50, training loss: 1.61550 [179.98s]
+2025-11-25 10:59:00,346 P1324598 INFO Epoch 16/50, training loss: 1.60324 [178.51s]
+2025-11-25 11:02:01,588 P1324598 INFO Epoch 17/50, training loss: 1.59245 [181.24s]
+2025-11-25 11:05:02,755 P1324598 INFO Epoch 18/50, training loss: 1.56871 [181.17s]
+2025-11-25 11:08:04,527 P1324598 INFO Epoch 19/50, training loss: 1.55385 [181.77s]
+2025-11-25 11:11:08,610 P1324598 INFO Epoch 20/50, training loss: 1.53732 [184.08s]
+2025-11-25 11:11:22,477 P1324598 INFO Test -- F1: 0.8102, Rec: 0.9848, Pre: 0.6882, HR@1: 0.1477, ndcg@1: 0.1477, HR@3: 0.2526, ndcg@3: 0.2074, HR@5: 0.3446, ndcg@5: 0.2450
+/home/nn/workspace/Eadro/.venv/lib/python3.8/site-packages/torch/amp/autocast_mode.py:198: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+2025-11-25 11:14:25,837 P1324598 INFO Epoch 21/50, training loss: 1.52157 [183.36s]
+2025-11-25 11:17:26,837 P1324598 INFO Epoch 22/50, training loss: 1.50475 [181.00s]
+2025-11-25 11:20:30,267 P1324598 INFO Epoch 23/50, training loss: 1.48523 [183.43s]
+2025-11-25 11:23:34,763 P1324598 INFO Epoch 24/50, training loss: 1.47188 [184.50s]
+2025-11-25 11:26:41,563 P1324598 INFO Epoch 25/50, training loss: 1.45707 [186.80s]
+2025-11-25 11:29:47,711 P1324598 INFO Epoch 26/50, training loss: 1.44128 [186.15s]
+2025-11-25 11:32:52,856 P1324598 INFO Epoch 27/50, training loss: 1.42644 [185.14s]
+2025-11-25 11:35:55,419 P1324598 INFO Epoch 28/50, training loss: 1.41550 [182.56s]
+2025-11-25 11:38:59,190 P1324598 INFO Epoch 29/50, training loss: 1.39001 [183.77s]
+2025-11-25 11:42:04,161 P1324598 INFO Epoch 30/50, training loss: 1.37926 [184.97s]
+2025-11-25 11:42:16,878 P1324598 INFO Test -- F1: 0.8009, Rec: 0.9388, Pre: 0.6983, HR@1: 0.1321, ndcg@1: 0.1321, HR@3: 0.2313, ndcg@3: 0.1884, HR@5: 0.3113, ndcg@5: 0.2210
+/home/nn/workspace/Eadro/.venv/lib/python3.8/site-packages/torch/amp/autocast_mode.py:198: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+2025-11-25 11:45:16,912 P1324598 INFO Epoch 31/50, training loss: 1.36672 [180.03s]
+2025-11-25 11:48:18,331 P1324598 INFO Epoch 32/50, training loss: 1.34687 [181.42s]
+2025-11-25 11:51:18,721 P1324598 INFO Epoch 33/50, training loss: 1.33100 [180.39s]
+2025-11-25 11:54:19,669 P1324598 INFO Epoch 34/50, training loss: 1.32533 [180.95s]
+2025-11-25 11:57:18,826 P1324598 INFO Epoch 35/50, training loss: 1.30485 [179.16s]
+2025-11-25 12:00:18,335 P1324598 INFO Epoch 36/50, training loss: 1.29057 [179.51s]
+2025-11-25 12:03:19,716 P1324598 INFO Epoch 37/50, training loss: 1.28275 [181.38s]
+2025-11-25 12:06:19,364 P1324598 INFO Epoch 38/50, training loss: 1.26858 [179.65s]
+2025-11-25 12:09:21,402 P1324598 INFO Epoch 39/50, training loss: 1.26724 [182.04s]
+2025-11-25 12:12:18,984 P1324598 INFO Epoch 40/50, training loss: 1.23867 [177.58s]
+2025-11-25 12:12:31,610 P1324598 INFO Test -- F1: 0.7930, Rec: 0.9119, Pre: 0.7016, HR@1: 0.1232, ndcg@1: 0.1232, HR@3: 0.2115, ndcg@3: 0.1734, HR@5: 0.2830, ndcg@5: 0.2028
+/home/nn/workspace/Eadro/.venv/lib/python3.8/site-packages/torch/amp/autocast_mode.py:198: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+2025-11-25 12:15:31,123 P1324598 INFO Epoch 41/50, training loss: 1.22663 [179.51s]
+2025-11-25 12:18:33,386 P1324598 INFO Epoch 42/50, training loss: 1.22502 [182.26s]
+2025-11-25 12:21:36,790 P1324598 INFO Epoch 43/50, training loss: 1.21188 [183.40s]
+2025-11-25 12:24:39,688 P1324598 INFO Epoch 44/50, training loss: 1.20298 [182.90s]
+2025-11-25 12:27:41,164 P1324598 INFO Epoch 45/50, training loss: 1.18712 [181.48s]
+2025-11-25 12:30:40,313 P1324598 INFO Epoch 46/50, training loss: 1.17525 [179.15s]
+2025-11-25 12:33:41,710 P1324598 INFO Epoch 47/50, training loss: 1.16203 [181.40s]
+2025-11-25 12:36:43,172 P1324598 INFO Epoch 48/50, training loss: 1.15682 [181.46s]
+2025-11-25 12:39:42,183 P1324598 INFO Epoch 49/50, training loss: 1.15008 [179.01s]
+2025-11-25 12:42:40,751 P1324598 INFO Epoch 50/50, training loss: 1.13066 [178.57s]
+2025-11-25 12:42:53,936 P1324598 INFO Test -- F1: 0.7829, Rec: 0.8706, Pre: 0.7113, HR@1: 0.1158, ndcg@1: 0.1158, HR@3: 0.2034, ndcg@3: 0.1661, HR@5: 0.2802, ndcg@5: 0.1974
+2025-11-25 12:43:06,537 P1324598 INFO Test -- F1: 0.8102, Rec: 0.9848, Pre: 0.6882, HR@1: 0.1477, ndcg@1: 0.1477, HR@3: 0.2526, ndcg@3: 0.2074, HR@5: 0.3446, ndcg@5: 0.2450
+2025-11-25 12:43:06,537 P1324598 INFO * Best result got at epoch 20 with HR@1: 0.1477
+2025-11-25 12:43:06,542 P1324598 INFO Saved best model to result/37dee8ed/model.ckpt
+2025-11-25 12:43:06,548 P1324598 INFO Experiment hash ID: 37dee8ed
+2025-11-25 12:43:06,548 P1324598 INFO Training completed successfully
